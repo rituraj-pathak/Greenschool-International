@@ -1,0 +1,19 @@
+.header{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0e3302e0,#0e3302e3), url(../../assets/Home/homeabout.jpg);
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+}
+.header h2{
+    font-size: 3rem;
+}
+@media screen and (max-width:576px){
+    .header h2{
+        font-size: 2rem;
+    }
+   
+}
