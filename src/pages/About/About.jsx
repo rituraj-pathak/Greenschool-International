@@ -27,12 +27,7 @@ const About = () => {
             </div>
             <div className={styles.aboutus_content}>
                 <div className={styles.aboutus_content_text}>
-                <p>
-Nestled amidst the picturesque green hills in the suburbs of the beautiful city of Guwahati, The Green School International has been thoughtfully designed to harmonize with the splendors of Mother Nature. The school offers an array of modern amenities, including a football pitch, volleyball ground, tennis court, separate swimming pools for junior and senior students, a skating area, and well-equipped classrooms.
-
-At The Green School International, Guwahati, our primary focus remains on nurturing holistic child development to cultivate empowered citizens of tomorrow. We believe that every child matters, and every child belongs. Our commitment to providing a safe and enriching learning environment for our students remains unwavering. Over the years, our Green Scholars, have benefited from top-notch educational programs.
-
-We take immense pride in our dedicated staff, who work tirelessly alongside students and parents to motivate each individual to perform their best. Our unwavering dedication is to ensure that every Green Scholar has the opportunity to flourish and reach their fullest potential.</p>
+                <p>Founded in 2018, The Green School International is situated amid the enchanting green hills on the outskirts of the lovely city of Guwahati. The school's design is carefully crafted to blend seamlessly with the beauty of Mother Nature, aligning with the goal of sustainability.</p>
                 <p>“School is a building which has four walls with tomorrow inside”– Lon Watters</p>
                 </div>
                 <div className={styles.aboutus_content_img}>
@@ -63,8 +58,8 @@ In Guwahati, The Green School International has carved a niche for itself among 
                 <img src={aboutmissionimg} alt="" />
             </div>
             <div className={styles.about_mission_text}>
-                <p>Our Mission</p>
-                <h3>TO DEVELOP CHILDREN WITH ACTIVE BODIES, CREATIVE MINDS & A SPIRIT OF EXCELLENCE IN EVERYTHING THEY UNDERTAKE</h3>
+                <p>Our Vision</p>
+                <h3> Endeavor to hold the position of the most sought-after school in Guwahati.</h3>
             </div>
         </div>
         <div className={styles.about_vission}>
@@ -73,7 +68,7 @@ In Guwahati, The Green School International has carved a niche for itself among 
             </div>
             <div className={styles.about_vission_text}>
                 <p>Our Mission</p>
-                <h3>TO DEVELOP CHILDREN WITH ACTIVE BODIES, CREATIVE MINDS & A SPIRIT OF EXCELLENCE IN EVERYTHING THEY UNDERTAKE</h3>
+                <h3>Our mission is to empower children's growth by fostering physical vitality, nurturing creative intellects, and instilling a commitment to excellence in all their endeavors. Above all, our goal is to cultivate the happiness of every child.</h3>
             </div>
         </div>
         <div className={styles.about_values}>
@@ -102,45 +97,7 @@ Our innovative teaching methodologies encourage Green School students to develop
                 <img src={principalimg} alt="" />
             </div>
         </div>
-        {/* <div className={styles.about_board}>
-            <h2>Board of Directors</h2>
-            <div className={styles.about_board_content}>
-                <div className={styles.about_board_content_item}>
-                    <img src={drimg}  className={styles.about_board_content_item_img} alt="" />
-                    <div className={styles.about_board_content_item_info}>
-                    <h3>DR. D. R. Arora</h3>
-                    <p>Chairman</p>
-
-                    </div>
-                </div>
-                <div className={styles.about_board_content_item}>
-                    <img src={drmamimg} alt="" />
-                    <div className={styles.about_board_content_item_info}>
-                    <h3>DR. (MRS.) BIMLA ARORA</h3>
-                    <p>Founder Director</p>
-
-                    </div>
-                </div>
-                <div className={styles.about_board_content_item}>
-                    <img src={meenalimg} alt="" />
-                    <div className={styles.about_board_content_item_info}>
-                    <h3>MRS. MEENAL ARORA</h3>
-                    <p>Founder Director</p>
-
-                    </div>
-                </div>
-                <div className={styles.about_board_content_item}>
-                    <img src={amolimg} alt="" />
-                    <div className={styles.about_board_content_item_info}>
-                    <h3>MR. AMOL ARORA</h3>
-                    <p>Vice-Chairman & Managing Director</p>
-
-                    </div>
-                </div>
-               
-            </div>
-          
-        </div> */}
+       
 
         <Footer/>
     </>

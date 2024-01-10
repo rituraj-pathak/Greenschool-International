@@ -94,7 +94,7 @@ const Admission = () => {
             admissionFormSubmitBtn.disabled = true;
             admissionFormSubmitBtn.innerHTML='Please Wait..'
             axios.defaults.headers.post['Content-Type'] = 'application/json';
-            axios.post('https://formsubmit.co/ajax/riturajpathak1998@gmail.com', {
+            axios.post('https://formsubmit.co/ajax/thegreenschoolinternational@gmail.com', {
                 childname: admissionFormData.childname,
                 fathername: admissionFormData.fathername,
                 whatsappnum: admissionFormData.whatsappnum ,

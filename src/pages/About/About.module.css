@@ -10,6 +10,7 @@
 .aboutus_content{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 .aboutus_content p{

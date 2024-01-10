@@ -72,7 +72,7 @@ const Contact = () => {
             contactSubmitBtn.disabled = true;
             contactSubmitBtn.innerHTML='Please Wait..'
             axios.defaults.headers.post['Content-Type'] = 'application/json';
-            axios.post('https://formsubmit.co/ajax/riturajpathak1998@gmail.com', {
+            axios.post('https://formsubmit.co/ajax/thegreenschoolinternational@gmail.com', {
                 name: contactData.fname,
                 contact: contactData.contact,
                 email: contactData.email ,
@@ -119,16 +119,15 @@ const Contact = () => {
                 <div className={styles.contactus_info_item}>
                     <MdLocationPin size={40}/>
                     <p>
-                        Mahapurush Madhabdev Path,
-                        Nalapara, Sarusajai</p>
+                    Mahapurush Madhabdev Path, Near Laxmi Mandir, Nalapara, Sarusajai, Guwahati-781040</p>
                 </div>
                 <div className={styles.contactus_info_item}>
                     <AiFillPhone size={40}/>
-                    <p>+91 9387130617</p>
+                    <p>+91 9387130617 / +919856199105</p>
                 </div>
                 <div className={styles.contactus_info_item}>
                     <BsFillEnvelopeFill size={40}/>
-                    <p>guwahati@greenschoolinternational.com</p>
+                    <p>thegreenschoolinternational@gmail.com</p>
                 </div>
 
             </div>

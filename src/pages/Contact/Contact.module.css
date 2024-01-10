@@ -14,12 +14,14 @@
     align-items: center;
     gap: 3rem;
     color: white;
+    width: 40vw;
 }
 .contactus_info_item{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 .contact_form{
     display: flex;
@@ -80,6 +82,10 @@
     }
     .contact_form form{
         flex-direction: column;
+    }
+    .contactus_info{
+       
+        width: auto;
     }
     
 }

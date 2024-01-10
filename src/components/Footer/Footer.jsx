@@ -32,15 +32,15 @@ const Footer = () => {
                 <h3>Contact</h3>
                 <div className={styles.footer_contact}>
                     <MdLocationOn color='yellow' size={20} />
-                    <p>Mahapurush Madhabdev PathI, Nalapara, Sarusajai</p>
+                    <p>Mahapurush Madhabdev Path, Near Laxmi Mandir, Nalapara, Sarusajai, Guwahati-781040</p>
                 </div>
                 <div className={styles.footer_contact}>
                     <AiFillPhone color='yellow'/>
-                    <p>+91 9387130617</p>
+                    <p>+91 9387130617 / +919856199105</p>
                 </div>
                 <div className={styles.footer_contact}>
                     <BsFillEnvelopeFill color='yellow'/>
-                    <p>guwahati@greenschoolinternational.com</p>
+                    <p>thegreenschoolinternational@gmail.com</p>
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ const Home = () => {
     <>
         <Navbar/>
         <div className={styles.marque} >
-          <marquee behavior="" direction="" scrollamount="12"><span style={{color:'red'}}>ANNOUNCEMENT: </span>Embracing a Transformative Journey: Formerly Shemford Futuristic School, We Proudly Unveil Our New Identity as The Green school International</marquee>
+          <marquee behavior="" direction="" scrollamount="12"><span style={{color:'red'}}>ANNOUNCEMENT: </span>Embracing a Transformative Journey: Formerly Shemford Futuristic School, We Proudly Unveil Our New Identity as The Green School International</marquee>
         </div>
         <div className={styles.home_banner}>
           <div className={styles.home_banner_left}>
@@ -121,7 +121,7 @@ Incorporating sports into traditional education cultivates children's passion an
             
           </div>
         </div>
-        <div className={styles.home_counter_container}>
+        {/* <div className={styles.home_counter_container}>
         <div className={styles.home_counter}>
           <div className={styles.home_counter_group}>
           <div className={styles.home_counter_item}>
@@ -145,7 +145,7 @@ Incorporating sports into traditional education cultivates children's passion an
           </div>
 
         </div>
-        </div>
+        </div> */}
 
         <Footer/>
         
