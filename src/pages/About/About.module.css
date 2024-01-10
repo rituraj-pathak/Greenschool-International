@@ -20,7 +20,7 @@
 .about_history{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(#ffffffb2,#ffffffad),url(../../assets/Home/homeabout.jpg);
+    background: linear-gradient(#ffffffb2,#ffffffad),url(../../../public/assets//Home/homeabout.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -157,8 +157,12 @@
     bottom: 10px;
     /* left: 25%; */
     background: linear-gradient(#0000005e,#00000063);
+    padding-block: 1rem;
     width: 100%;
     /* transform: translateX(-50%); */
+}
+.about_board_content_item_info p{
+    font-size: 12px;
 }
 .about_board_content_item_info{
     text-align: center;

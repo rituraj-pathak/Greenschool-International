@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap');
+.marque{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: rgb(228, 228, 228);
+}
 .home_banner{
-    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../assets/Home/home_banner_back.jfif);
+    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../../public/assets//Home/home_banner_back.jfif);
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -64,7 +69,7 @@
     line-height:6rem;
 }
 .home_about{
-    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../assets/Home/homeabout.jpg);
+    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../../public/assets//Home/homeabout.jpg);
     background-size: cover;
 }
 .home_about_container{

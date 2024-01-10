@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../assets/Home/homeabout.jpg);
+    background: linear-gradient(to right, #040e04f6,#0e3302ec,#040e04e7),url(../../../public/assets//Home/homeabout.jpg);
     background-size: cover;
 }
 .footer_container{

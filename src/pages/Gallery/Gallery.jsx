@@ -5,16 +5,16 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import ModalImage from "react-modal-image";
 
-import galleryimg1 from "../../assets/Gallery/01.jpg"
-import galleryimg2 from "../../assets/Gallery/02.jpg"
-import galleryimg3 from "../../assets/Gallery/03.jpg"
-import galleryimg4 from "../../assets/Gallery/04.jpeg"
-import galleryimg5 from "../../assets/Gallery/05.jpg"
-import galleryimg6 from "../../assets/Gallery/06.jpg"
-import galleryimg7 from "../../assets/Gallery/07.jpg"
-import galleryimg8 from "../../assets/Gallery/08.jpg"
-import galleryimg9 from "../../assets/Gallery/09.jpg"
-import galleryimg10 from "../../assets/Gallery/10.jpg"
+import galleryimg1 from "../../../public/assets/Gallery/01.jpg"
+import galleryimg2 from "../../../public/assets/Gallery/02.jpg"
+import galleryimg3 from "../../../public/assets/Gallery/03.jpg"
+
+import galleryimg5 from "../../../public/assets/Gallery/05.jpg"
+import galleryimg6 from "../../../public/assets/Gallery/06.jpg"
+import galleryimg7 from "../../../public/assets/Gallery/07.jpg"
+import galleryimg8 from "../../../public/assets/Gallery/08.jpg"
+import galleryimg9 from "../../../public/assets/Gallery/09.jpg"
+import galleryimg10 from "../../../public/assets/Gallery/10.jpg"
 
 
 const Gallery = () => {

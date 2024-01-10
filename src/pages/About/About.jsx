@@ -4,16 +4,17 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 
-import aboutmissionimg from "../../assets/About/about_mission.jpeg"
-import aboutvissionimg from "../../assets/About/about_vission.jpeg"
-import dummyimg from "../../assets/Home/homeabout.jpg"
-import principalimg from "../../assets/About/principal.jpg"
-import drimg from "../../assets/About/DrArora.jpg"
-import drmamimg from "../../assets/About/Drmam.jpg"
-import meenalimg from "../../assets/About/meenal_mam.jpg"
-import amolimg from "../../assets/About/amol_Sir.jpg"
 
-import logo from "../../assets/logo.png"
+import aboutmissionimg from "../../../public/assets/About/about_mission.jpeg"
+import aboutvissionimg from "../../../public/assets/About/about_vission.jpeg"
+import dummyimg from "../../../public/assets//Home/homeabout.jpg"
+import principalimg from "../../../public/assets/About/principal.jpg"
+import drimg from "../../../public/assets//About/DrArora.jpg"
+import drmamimg from "../../../public/assets/About/Drmam.jpg"
+import meenalimg from "../../../public/assets/About/meenal_mam.jpg"
+import amolimg from "../../../public/assets/About/amol_Sir.jpg"
+
+import logo from "../../../public/assets/logo.png"
 
 const About = () => {
   return (
@@ -101,7 +102,7 @@ Our innovative teaching methodologies encourage Green School students to develop
                 <img src={principalimg} alt="" />
             </div>
         </div>
-        <div className={styles.about_board}>
+        {/* <div className={styles.about_board}>
             <h2>Board of Directors</h2>
             <div className={styles.about_board_content}>
                 <div className={styles.about_board_content_item}>
@@ -115,31 +116,31 @@ Our innovative teaching methodologies encourage Green School students to develop
                 <div className={styles.about_board_content_item}>
                     <img src={drmamimg} alt="" />
                     <div className={styles.about_board_content_item_info}>
-                    <h3>DR. D. R. Arora</h3>
-                    <p>Chairman</p>
+                    <h3>DR. (MRS.) BIMLA ARORA</h3>
+                    <p>Founder Director</p>
 
                     </div>
                 </div>
                 <div className={styles.about_board_content_item}>
                     <img src={meenalimg} alt="" />
                     <div className={styles.about_board_content_item_info}>
-                    <h3>DR. D. R. Arora</h3>
-                    <p>Chairman</p>
+                    <h3>MRS. MEENAL ARORA</h3>
+                    <p>Founder Director</p>
 
                     </div>
                 </div>
                 <div className={styles.about_board_content_item}>
                     <img src={amolimg} alt="" />
                     <div className={styles.about_board_content_item_info}>
-                    <h3>DR. D. R. Arora</h3>
-                    <p>Chairman</p>
+                    <h3>MR. AMOL ARORA</h3>
+                    <p>Vice-Chairman & Managing Director</p>
 
                     </div>
                 </div>
                
             </div>
           
-        </div>
+        </div> */}
 
         <Footer/>
     </>

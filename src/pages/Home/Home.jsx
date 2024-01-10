@@ -1,21 +1,21 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import styles from "./Home.module.css"
-import homebannerimg from "../../assets/Home/dummy_banner_student.png"
-import homebannerstdimg from "../../assets/home/banner_student.png"
 
-import mathicon from "../../assets/icons/math.png"
-import homeaboutimg from "../../assets/Home/homeabout.jpg"
+import homebannerstdimg from "../../../public/assets/home/banner_student.png"
+
+
+import homeaboutimg from "../../../public/assets/Home/homeabout.jpg"
 import Footer from '../../components/Footer/Footer'
-import discoverimg from "../../assets/Home/discoverimg.jpeg"
+import discoverimg from "../../../public/assets/Home/discoverimg.jpeg"
 import Button from '../../components/Button/Button'
 import { Link } from 'react-router-dom'
-import icon1 from "../../assets/icons/icon 1.svg"
-import icon2 from "../../assets/icons/icon 2.svg"
-import icon3 from "../../assets/icons/icon 3.svg"
-import icon4 from "../../assets/icons/icon 4.svg"
-import icon5 from "../../assets/icons/icon 5.svg"
-import icon6 from "../../assets/icons/icon 6.svg"
+import icon1 from "../../../public/assets/icons/icon 1.svg"
+import icon2 from "../../../public/assets/icons/icon 2.svg"
+import icon3 from "../../../public/assets/icons/icon 3.svg"
+import icon4 from "../../../public/assets/icons/icon 4.svg"
+import icon5 from "../../../public/assets/icons/icon 5.svg"
+import icon6 from "../../../public/assets/icons/icon 6.svg"
 
 
 
@@ -23,6 +23,9 @@ const Home = () => {
   return (
     <>
         <Navbar/>
+        <div className={styles.marque} >
+          <marquee behavior="" direction="" scrollamount="12"><span style={{color:'red'}}>ANNOUNCEMENT: </span>Embracing a Transformative Journey: Formerly Shemford Futuristic School, We Proudly Unveil Our New Identity as The Green school International</marquee>
+        </div>
         <div className={styles.home_banner}>
           <div className={styles.home_banner_left}>
             <h2><span>For Every Student,</span><span>Every Classroom.</span> </h2>
