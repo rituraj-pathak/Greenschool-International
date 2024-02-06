@@ -21,6 +21,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
         <div className={styles.navbar_logo}>
             <img src={logo} alt="" />
+            <h5 style={{textTransform:'uppercase'}}>Senior Secondary School</h5>
         </div>
         <div className={styles.navbar_navlinks}>
             <ul>
